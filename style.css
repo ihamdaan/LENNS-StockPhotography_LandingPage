@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Baloo Tammudu 2', cursive;
+    background-image: url(assets/topography.svg), linear-gradient(110deg, #cc2b5e, #753a88);
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    margin: 15px 20px;
+    background-attachment: fixed;
+}
+
+.button{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.navbar{
+    margin-top: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.navbar__brand{
+    width: 50px;
+}
+
+.navbar__logo{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.navbar__nav__items{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.search{
+    margin-top: 25px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.bg__search{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.search__img{
+    
+    width: 100%;
+    border-radius: 25px;
+    opacity: 60%;
+    height: 150px; 
+}
+
+.searchbar__search__items{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.search__button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+}
+
+.search__item{
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px;
+}
+
+.searchbar{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 2px solid black;
+    cursor: text;
+    overflow: hidden;
+    width: 100%; 
+}
+
+::placeholder { 
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.image{
+    margin-top: 25px;
+    display: flex;
+}
+
+.bg__image{
+    background-image: url(assets/moroccan-flower.png);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+} 
+
+.image__heading{
+    background-image: url(assets/PikPng.com_background-png_1713302.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Tangerine', cursive;
+    font-size: 75px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    text-shadow: 4px 3px 0px black, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+.big__image{
+    width: fit-content;
+    height: 500px;
+    box-shadow: 5px 10px 18px #000000;
+    border: 2px solid white;
+}
+
+.image__componenets{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.see-more__button1{
+    padding: 5px;
+    margin: 10px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.see-more__button1:hover{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgba(224, 214, 214, 0.424);
+}
+
+.big__image__1{
+    width: 100%;
+    height: 100%;
+}
+
+.small__images{
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.small__image__1{
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 10px 18px #000000;
+    border: 2px solid white;
+}
+
+.vdo{
+    display: flex;
+    margin-top: 25px;
+}
+
+.vdo__image{
+    background-image: url(assets/7-Best-Pattern-of-Background-Images-for-Websites-1-Dark-Wood.jpg);
+    width: 100%;
+    border-radius: 25px;
+}
+
+.vdo__heading{
+    background-image: url(assets/PikPng.com_background-png_1713302.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Tangerine', cursive;
+    font-size: 75px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    padding: 5px;
+    text-shadow: 4px 3px 0px black, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+.vdo__componenets{
+    align-content: center;
+}
+
+.see-more__button2{
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.see-more__button2:hover{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(224, 214, 214, 0.424);
+}
+
+
+.small__vdos{
+    width: fit-content;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.small__vdo__1{
+    margin-top: 8px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 10px 18px #000000;
+    border: 2px solid white;
+}
+
+.big__vdo{
+    width: fit-content;
+    margin-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.big__vdo__1{
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 10px 18px #000000;
+    border: 2px solid white;
+}
+
+.foot{
+    background-color: black;
+    display: flex;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-bottom: -15px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.foot__media-handles{
+    margin-top: 10px;
+}
+
+.media__handles{
+    padding: 8px;
+}
+
+.copyright{
+    color: white;
+    font-size: 11px;
+}
+
+.media__handles:hover{
+    background-color: grey;
+    border-radius: 10px;
+    
+}
