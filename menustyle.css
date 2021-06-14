@@ -43,6 +43,15 @@ body{
     color: white;
 }
 
+.nav__item{
+    margin-top: 10px;
+}
+
+.navbar__nav__items:hover{
+    background-color: grey;
+    border-radius: 10px; 
+}
+
 .container{
     display: flex;
     align-items: center;
